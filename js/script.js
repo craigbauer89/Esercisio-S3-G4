@@ -152,10 +152,19 @@ document.getElementById('result2b').innerHTML = arr;
 document.getElementById('result2c').innerHTML = arr.length;
 
 
-let numarr = [ '34', '62', '98' , "3", '54'];
+let numarr = [ '33', '62', '98' , "54", '3'];
 document.getElementById('result3').innerHTML = numarr;
 document.getElementById('result3a').innerHTML = Math.max(...numarr);
 document.getElementById('result3b').innerHTML = Math.min(...numarr);
+document.getElementById('result3c').innerHTML = multiplicazione(numarr[0], numarr[4]);
+
+
+function multiplicazione(x,y) {
+    let result = x * y;
+    return result;
+}
+
+
 // document.getElementById('result3a').innerHTML = Math.floor(numarr);
 // 
 // document.getElementById('result3c').innerHTML = numarr;
@@ -169,7 +178,7 @@ otharray.pop();
 document.getElementById('result4b').innerHTML = otharray;
 otharray.shift();
 document.getElementById('result4c').innerHTML = otharray;
-otharray.splice(2,'purple');
+otharray.splice(2, 0, "purple");
 document.getElementById('result4d').innerHTML = otharray;
 // document.getElementById('result4c').innerHTML = otharray;
 // document.getElementById('result4d').innerHTML = otharray;
