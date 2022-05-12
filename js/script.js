@@ -134,8 +134,10 @@ function functionX() {
     document.getElementById('result1').innerHTML = (string.toUpperCase());
     document.getElementById('result1a').innerHTML = (string.toLowerCase());
     document.getElementById('result1b').innerHTML = (string.split(' '));
-    let array = string.split(' ');
-    document.getElementById('result1d').innerHTML = (string.concat());
+    let convertarray = string.split(' ');
+    document.getElementById('result1c').innerHTML = convertarray[1] + ' ' + convertarray[3]
+    let newarray = [convertarray[1] , convertarray[3]];
+    document.getElementById('result1d').innerHTML = convertarray.concat(newarray);
     console.log(string);
     // printfunctionX(string);
 } 
