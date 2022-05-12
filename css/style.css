@@ -1,0 +1,64 @@
+body {
+    
+    background: linear-gradient(to  left, #937c6c, #513f3a);
+    color: white;
+    
+}
+
+header {
+    
+    font-family: sans-serif;
+    font-size: 10px;
+    line-height: 1;
+    color: white;
+    text-align: center;
+}
+
+.form {
+    height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 1%;
+   
+}
+
+.form div {
+    width: 40%;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.container, .container2 {
+    margin-top: 5%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    justify-content: space-between;
+
+   
+}
+
+.container div, .container2 div {
+    width: 45%;
+    height: 400px;
+    border: 1px solid black;
+    text-align: center;
+    
+
+}
+
+.box3 {
+
+    height: 400px;
+    border: 1px solid black;
+
+}
+
+span {
+    color: black;
+}
